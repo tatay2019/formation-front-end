@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Add Film</h1>
+<div mat-dialog-content>
+  <mat-form-field style="width: 100%">
+    <mat-label>Name</mat-label>
+    <input matInput [(ngModel)]="film.name">
+  </mat-form-field>
+  <mat-form-field style="width: 100%">
+    <mat-label>Icon URL</mat-label>
+    <input matInput [(ngModel)]="film.iconUrl">
+  </mat-form-field>
+  <mat-form-field style="width: 100%">
+    <mat-label>Description</mat-label>
+    <input matInput [(ngModel)]="film.description">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions align="end">
+  <button mat-button >No Thanks</button>
+  <button mat-flat-button (click)="add()" >Ok</button>
+</div>

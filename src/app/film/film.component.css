@@ -1,0 +1,14 @@
+.description
+{
+  font-family: "Helvetica Neue", serif;
+  font-size: 16px;
+  text-align: justify;
+  width: 96%;
+  padding-left: 2%;
+  margin-top: 5px;
+  height: 75px;
+}
+ .text-center button{
+   margin-top: 10px;
+   margin-right: 10px;
+}
